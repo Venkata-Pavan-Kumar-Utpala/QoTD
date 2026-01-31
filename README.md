@@ -89,6 +89,10 @@ Redis Caching: Since the "Question of the Day" only changes once every 24 hours,
 
 Secure Code Execution: Integrate with a remote execution engine like Judge0 or a custom Dockerized Sandbox to run user code against hidden test cases safely.
 
+Leaderboard Aggregation: Implement a daily leaderboard using MongoDB's aggregation pipeline or Redis Sorted Sets for real-time ranking.
+
+JWT Authentication: Secure the submission endpoint so only logged-in students can submit and track their progress.
+
 
 ## Live Project Links
 
@@ -100,7 +104,3 @@ Secure Code Execution: Integrate with a remote execution engine like Judge0 or a
 > **Note:** Since this is hosted on a free tier, the API may take 30–60 seconds to "wake up" on the first request if it has been inactive.
 
 ---
-
-Leaderboard Aggregation: Implement a daily leaderboard using MongoDB's aggregation pipeline or Redis Sorted Sets for real-time ranking.
-
-JWT Authentication: Secure the submission endpoint so only logged-in students can submit and track their progress.
