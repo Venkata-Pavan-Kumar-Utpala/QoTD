@@ -4,16 +4,16 @@ A robust, RESTful API built for the **Question of the Day (QOTD)** feature. This
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 * **Runtime:** Node.js (ES Modules)
 * **Framework:** Express.js
 * **Database:** MongoDB (Mongoose ODM)
 * **Validation:** Custom logic in Controllers
-* **Deployment:** [Render/Railway/Fly.io]
+* **Deployment:** Render
 
 ---
 
-## 🛰️ API Endpoints
+## API Endpoints
 
 ### 1. Questions
 | Method | Endpoint | Description |
@@ -54,32 +54,29 @@ How to Run Locally
 Clone the repo:
 
 ```Bash
-
 git clone [YOUR_GITHUB_LINK]
 cd qotd-backend
 ```
 Install dependencies:
 
 ```Bash
-
 npm install
-Setup Environment:
-Create a .env file in the root and add:
 ```
 
-```Plaintext
+Setup Environment:
+Create a .env file in the root and add:
 
+```Plaintext
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
 ```
 Seed Data:
 
 ```Bash
-
 node seed.js
-Start Development Server:
 ```
-```Bash
+Start Development Server:
 
+```Bash
 npm run dev
 ```
