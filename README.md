@@ -82,9 +82,13 @@ npm run dev
 ```
 
 Future Improvements
+
 Given more time, I would implement the following:
 
 Redis Caching: Since the "Question of the Day" only changes once every 24 hours, caching the result in Redis would drastically reduce database load.
+
 Secure Code Execution: Integrate with a remote execution engine like Judge0 or a custom Dockerized Sandbox to run user code against hidden test cases safely.
+
 Leaderboard Aggregation: Implement a daily leaderboard using MongoDB's aggregation pipeline or Redis Sorted Sets for real-time ranking.
+
 JWT Authentication: Secure the submission endpoint so only logged-in students can submit and track their progress.
