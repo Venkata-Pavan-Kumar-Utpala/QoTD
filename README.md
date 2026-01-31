@@ -81,7 +81,7 @@ Start Development Server:
 npm run dev
 ```
 
-Future Improvements
+## Future Improvements
 
 Given more time, I would implement the following:
 
